@@ -117,7 +117,7 @@ async def do_post(bot, manual=False):
         await notify.send("⚠️ Koi channel add nahi hai!")
         return
 
-    BATCH    = 10
+    BATCH    = int(os.getenv("BATCH_SIZE", "5"))
     next_id  = get_next_message_id()
     total_ch = len(channels)
 
