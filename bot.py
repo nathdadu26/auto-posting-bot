@@ -112,9 +112,10 @@ def build_caption(original_caption: str) -> str:
         f"📥 Download Links/👀Watch Online\n\n"
         f"{video_lines}\n\n"
         f"▰▱▱▱▱▱▱▱▱▱▱▱▱▱▱▰\n"
-        f"🚫⛔️ Note: We Don't Leak Anything here, "
-        f"We Just Collect & Share from All Over the internet\n"
-        f"Thanks🔎 For Content Removal Use {BOT_NAME}"
+        f"Join Backup Channel 🥵\n"
+        f"https://t.me/+7RoLugRXsFw4ODU1\n"
+        f"Backup Channel 2 🥵\n"
+        f"https://t.me/+9q4HMf8_1m5kODM1"
     )
 
 def build_buttons() -> InlineKeyboardMarkup:
